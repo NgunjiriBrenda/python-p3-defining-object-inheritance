@@ -21,7 +21,7 @@ class TestVehicle:
         assert(my_vehicle.wheel_number == 4)
 
     def test_goes_vroom(self):
-        '''has a method "go()" that goes "vrrrrrrrooom!"'''
+        '''has a method "go()" that goes "VRRROOOOOOOOOOOOOOOOOOOOOOM!"'''
         my_vehicle = Vehicle(48, 4)
         assert(my_vehicle.go() == "vrrrrrrrooom!")
 
